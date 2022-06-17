@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times', 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.header{
+    width: 100%;
+    display: flex;
+}
+
+#logo{
+    margin: auto;
+    text-align: center;
+}
+
+.searchBar{
+    width: 90%;
+    display: flex;
+    flex-direction: column; 
+    background-color: #efefef;
+    margin: auto;
+}
+
+.searchBar p,.searchBar input{
+   font-size: 16px;
+   display: inline;
+   margin: auto;
+}
