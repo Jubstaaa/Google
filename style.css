@@ -1,32 +1,108 @@
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
     font-family: 'Times', 'Times New Roman', serif;
     padding: 0;
     margin: 0;
 }
 
 
-
 .header{
     width: 100%;
-    display: flex;
+    text-align: center; 
 }
 
 #logo{
     margin: auto;
-    text-align: center;
 }
 
 .searchBar{
     width: 90%;
-    display: flex;
-    flex-direction: column; 
     background-color: #efefef;
+    margin: auto;
+    text-align: center;
+}
+
+.searchBar p{
+   font-size: 16px;
+   display: inline;
+   
+}
+
+.searchBar div input{
+    font-size: 14px;
+    display: inline;
+    border:2px solid rgb(118,118,118);
+    padding: 1px 6px;
+    text-align: center;
+    background-color: rgb(239,239,239);
+ }
+
+ .section{
+     width: 90%;
+     text-align: center;
+    margin: auto;
+ }
+
+ .section .info1{
+     width: 37%;
+     text-align: center;
+     background-color: #7ee5da;
+     padding: 10px;
+     float: left;
+     height: 75px;
+     border: 1px solid white;
+ }
+
+ .section .info1 *{
+     display: block;
+     text-align: center;
+ }
+
+ .section .info2{
+    width: 22%;
+    text-align: center;
+    background-color: #70ccc2;
+    padding: 10px;
+    float: left;
+    height: 75px;
+    border: 1px solid white;
+}
+
+.section .info2 *{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+}
+
+.section .info3{
+    width: 41%;
+    text-align: center;
+    background-color: #62B3AA;
+    padding: 0;
+    float: left;
+    height: 75px;
+    border: 1px solid white;
+}
+
+.section .info3 *{
+    display: block;
+    text-align: center;
+    font-size: 13px;
     margin: auto;
 }
 
-.searchBar p,.searchBar input{
-   font-size: 16px;
-   display: inline;
-   margin: auto;
+.section .info3 div *{
+    display: inline;
 }
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
